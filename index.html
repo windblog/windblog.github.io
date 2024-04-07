@@ -33,8 +33,8 @@
     <script class="keep-theme-configurations">
     const KEEP = window.KEEP || {}
     KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#00C25F","title":"一个胡说八道的博客","author":"Wind","avatar":"/images/avatar.svg","favicon":"/images/logo.svg"},"menu":{"主页":"/","时间线":"/archives"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"保持清醒，持续创造","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":["作者"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":false,"preload":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.1.0"}
-    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#00C25F","title":"一个胡说八道的博客","author":"Wind","avatar":"/images/avatar.svg","favicon":"/images/logo.svg"},"menu":{"主页":"/","时间线":"/archives"},"first_screen":{"enable":false,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"保持清醒，持续创造","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":false,"custom_badge":["作者"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"default"},"toc":{"enable":false,"number":false,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":false,"preload":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.21"},"waline":{"server_url":null,"reaction":false,"version":2},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.1.0"}
+    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
     KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
     KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
   </script>
@@ -53,42 +53,14 @@
 <main class="page-container border-box">
     <!-- home first screen  -->
     
-        
-<div class="first-screen-container border-box flex-center fade-in-down-animation">
-    <div class="first-screen-content border-box">
-        <div class="top-placeholder border-box"></div>
-
-        <div class="middle-placeholder border-box">
-            
-                <div class="description border-box">
-                    
-                        
-                            
-                                <div class="desc-item border-box"><span class="desc">保持清醒，持续创造</span><span class="cursor">｜</span></div>
-                            
-                        
-                    
-                </div>
-            
-
-            
-        </div>
-
-        <div class="bottom-placeholder border-box">
-            
-        </div>
-    </div>
-</div>
-
-    
 
     <!-- page content -->
     <div class="page-main-content border-box is-home">
         <div class="page-main-content-top">
             
-<header class="header-wrapper transparent-1">
+<header class="header-wrapper">
 
-    <div class="border-box header-content has-first-screen">
+    <div class="border-box header-content">
         <div class="left border-box">
             
             <a class="site-name border-box" href="/">
@@ -183,11 +155,7 @@
                     <div class="home-post-content keep-markdown-body">
                         
                             source&#x2F;_posts目录下新建.md文件
-1$ hexo g
-之后
-1$ hexo s
-进行本地预览，预览没问题，通过control+C暂停本地预览
-1$ hexo d
+1234$ hexo g$ hexo sHexo is running at http://localhost:4000/$ hexo d
 
 
 
@@ -202,8 +170,8 @@
         
             <span class="meta-info-item border-box">
                 <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sun Apr 07 2024 10:28:34 GMT+0800"
-                >2024-04-07 10:28:34</span>
+                                                                                data-updated="Sun Apr 07 2024 17:40:41 GMT+0800"
+                >2024-04-07 17:40:41</span>
             </span>
         
 
@@ -220,7 +188,7 @@
     </div>
 
     
-        <a class="home-read-more" href="/2024/04/03/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/">Read more&nbsp;<i class="icon fas fa-angle-right"></i></a>
+        <a class="home-read-more" href="/2024/04/03/Hexo%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/">查看更多&nbsp;<i class="icon fas fa-angle-right"></i></a>
     
 </div>
 
@@ -240,35 +208,190 @@
         </div>
 
         <div class="page-main-content-bottom border-box">
-            
-<footer class="footer border-box">
-    <div class="border-box website-info-box default">
-        
-            <div class="copyright-info info-item default">
-                <!-- &copy;&nbsp;2024 -->
-                
-                    <!-- &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">Wind</a> -->
-                
-            </div>
+            $shields-style-height = 22px
 
-            <div class="theme-info info-item default">
-                <!-- Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a> -->
-            </div>
+.footer {
+  padding 1rem 0
+  color var(--text-color-4)
+  font-size 1rem
 
-            
+  a {
+    color var(--text-color-4)
 
-            
-        
+    &:hover {
+      color var(--primary-color)
+    }
 
-        <div class="count-item info-item default">
-            
+    &.no-pointer {
+      pointer-events none
+    }
+  }
 
-            
 
-            
-        </div>
-    </div>
-</footer>
+  .website-info-box {
+    display flex
+    flex-direction column
+    align-items center
+    justify-content center
+
+
+    &.shields {
+      padding 0 1rem
+
+      img {
+        height $shields-style-height !important
+      }
+
+
+      a {
+        position relative
+        display inline-flex
+        box-sizing border-box
+        text-decoration none
+      }
+
+
+      .shields-item
+      .count-box {
+        margin 0.3rem 0.2rem
+        user-select none
+      }
+    }
+
+
+    +keep-mobile() {
+      &.shields {
+        .shields-item
+        .count-box {
+          margin 0.12rem -0.3rem
+          transform scale(0.9)
+          transform-origin center center
+        }
+      }
+    }
+
+
+    .info-item {
+      position relative
+      display flex
+      flex-wrap wrap
+      align-items center
+      justify-content center
+      box-sizing border-box
+      color var(--text-color-4)
+
+
+      &.shields {
+        .count-box {
+          display flex
+          justify-content flex-start
+          height $shields-style-height
+          color #f2f2f2
+          font-size 12.6px
+
+
+          .item-type
+          .item-value {
+            display flex
+            align-items center
+            height 100%
+            padding 0 6px
+          }
+
+
+          .item-type {
+            margin-right 0
+            background #555555
+          }
+
+          .item-value {
+
+            &.uv {
+              background coral
+            }
+
+            &.pv {
+              background orange
+            }
+
+            &.word {
+              background indianred
+            }
+          }
+        }
+      }
+
+
+      &.default {
+        margin 0.2rem 0
+
+        .count-box {
+          margin-right 15px
+
+          &::before {
+            position absolute
+            top 50%
+            left -10px
+            box-sizing border-box
+            transform translateY(-55%)
+            content '|'
+          }
+
+
+          &:first-child {
+            &::before {
+              display none
+            }
+          }
+
+
+          &:last-child {
+            margin-right 0
+          }
+
+
+          .item-type {
+            margin-right 4px
+          }
+        }
+      }
+
+
+      &.count-item {
+        display flex
+
+        .count-box {
+          &.uv
+          &.pv {
+            display none
+          }
+        }
+      }
+
+
+      &.deploy-info {
+
+        display flex
+
+        a
+        .tooltip {
+          display flex
+          align-items center
+        }
+
+        img {
+          height 1.08rem
+          margin 0 0.4rem
+        }
+      }
+    }
+  }
+
+
+  .icon-animate {
+    animation heartbeat-animate 1.2s ease-in-out infinite
+  }
+}
 
         </div>
     </div>
