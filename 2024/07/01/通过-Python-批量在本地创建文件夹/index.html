@@ -180,7 +180,7 @@
 
             <span class="meta-info-item post-update-date">
                 <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                <span class="datetime" data-updated="Mon Jul 01 2024 14:26:03 GMT+0800">2024-07-01 14:26:03</span>
+                <span class="datetime" data-updated="Mon Jul 01 2024 14:31:45 GMT+0800">2024-07-01 14:31:45</span>
             </span>
         
 
@@ -205,7 +205,8 @@
                 <div class="post-content keep-markdown-body">
                     
 
-                     <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">import os  </span><br><span class="line"></span><br><span class="line"># 原始的文件夹名称列表  </span><br><span class="line">original_folder_names = [  </span><br><span class="line">    &quot;数学&quot;,  </span><br><span class="line">    &quot;物理&quot;,  </span><br><span class="line">    &quot;语文&quot;</span><br><span class="line">]  </span><br><span class="line"></span><br><span class="line"># 使用列表推导式添加数字索引和顿号  </span><br><span class="line">folder_names = [f&quot;&#123;i&#125;、&#123;name&#125;&quot; for i, name in enumerate(original_folder_names, start=1)]  </span><br><span class="line"></span><br><span class="line"># 指定你想要创建文件夹的目录路径  </span><br><span class="line">target_directory = &#x27;/Users/bailey/Documents/临时&#x27;  # 替换为你的目标目录路径  </span><br><span class="line"></span><br><span class="line"># 遍历列表并创建文件夹  </span><br><span class="line">for folder_name in folder_names:  </span><br><span class="line">    folder_path = os.path.join(target_directory, folder_name)  # 使用指定的目标目录  </span><br><span class="line">    if not os.path.exists(folder_path):  # 检查文件夹是否已经存在  </span><br><span class="line">        os.makedirs(folder_path)  # 创建文件夹  </span><br><span class="line">        print(f&quot;在 &#123;target_directory&#125; 下创建了文件夹: &#123;folder_name&#125;&quot;)  </span><br><span class="line">    else:  </span><br><span class="line">        print(f&quot;文件夹 &#123;folder_name&#125; 在 &#123;target_directory&#125; 下已经存在，跳过创建。&quot;)</span><br></pre></td></tr></table></figure>
+                    <p>在 macOS 系统下批量创建文件夹，如：1、数学；2、物理；3、语文</p>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">import os  </span><br><span class="line"></span><br><span class="line"># 原始的文件夹名称列表  </span><br><span class="line">original_folder_names = [  </span><br><span class="line">    &quot;数学&quot;,  </span><br><span class="line">    &quot;物理&quot;,  </span><br><span class="line">    &quot;语文&quot;</span><br><span class="line">]  </span><br><span class="line"></span><br><span class="line"># 使用列表推导式添加数字索引和顿号  </span><br><span class="line">folder_names = [f&quot;&#123;i&#125;、&#123;name&#125;&quot; for i, name in enumerate(original_folder_names, start=1)]  </span><br><span class="line"></span><br><span class="line"># 指定你想要创建文件夹的目录路径  </span><br><span class="line">target_directory = &#x27;/Uxxx/xxx/xx&#x27;  # 替换为你的目标目录路径  </span><br><span class="line"></span><br><span class="line"># 遍历列表并创建文件夹  </span><br><span class="line">for folder_name in folder_names:  </span><br><span class="line">    folder_path = os.path.join(target_directory, folder_name)  # 使用指定的目标目录  </span><br><span class="line">    if not os.path.exists(folder_path):  # 检查文件夹是否已经存在  </span><br><span class="line">        os.makedirs(folder_path)  # 创建文件夹  </span><br><span class="line">        print(f&quot;在 &#123;target_directory&#125; 下创建了文件夹: &#123;folder_name&#125;&quot;)  </span><br><span class="line">    else:  </span><br><span class="line">        print(f&quot;文件夹 &#123;folder_name&#125; 在 &#123;target_directory&#125; 下已经存在，跳过创建。&quot;)</span><br></pre></td></tr></table></figure>
 
                 </div>
                 
@@ -221,27 +222,6 @@
 
                 
 
-                
-                    <div class="post-nav border-box">
-                        
-                        
-                            <div class="next-post">
-                                <a class="next"
-                                   rel="next"
-                                   href="/2024/04/25/%E6%A8%A1%E7%B3%8A%E7%9A%84%E4%B8%96%E7%95%8C/"
-                                   title="模糊的世界"
-                                >
-                                    <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">模糊的世界</span>
-                                        <span class="post-nav-item">Next posts</span>
-                                    </span>
-                                    <span class="right arrow-icon flex-center">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        
-                    </div>
                 
 
                 
